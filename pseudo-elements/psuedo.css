@@ -1,0 +1,29 @@
+p::first-letter{
+    background-color: red;
+    color: blue;
+    font-size: 30px;
+}
+p::selection{
+    color: yellow;
+    background-color:rgb(79, 15, 82);
+}
+input::placeholder{
+    color: blue;
+    background-color: yellow;
+}
+li::marker{
+    color: red;
+    font-size: 2em;
+}
+li::before{
+    content: "section ";
+}
+button::before{
+    content: "hi ";
+}
+button::after{
+    content: " hello";
+}
+ul{
+    list-style-type: none;
+}

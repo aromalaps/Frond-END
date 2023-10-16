@@ -1,0 +1,19 @@
+html{
+    background-color: white;
+}
+body{
+    background-color: brown;
+    width: 50%;
+    height: 50%;
+
+}
+/*  "  .  " dot is used to select a specific classn  */
+.is-username{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+/*  " # " is used for selecting a specific id    */
+#its-id{
+    background-color: red;
+}

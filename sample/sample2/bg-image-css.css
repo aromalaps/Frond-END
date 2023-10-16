@@ -1,0 +1,28 @@
+html,body{
+    background: url("../room.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100%;
+    margin:0;
+}
+/* linear gradient  */
+.box{
+    background: linear-gradient( red 50px,blue 10px,purple,green);
+    width:50%;
+    height: 60%;
+}
+/* linear gradient with deg */
+.box2{
+    background: linear-gradient(200deg , red ,blue ,purple,green);
+    width:50%;
+    height: 60%;
+}
+/* Radial gradient */
+.box1{
+    background: radial-gradient(red,blue,green,yellow);
+    width: 50%;
+    height: 70%;
+}
+
+
