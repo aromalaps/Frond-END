@@ -1,0 +1,28 @@
+*{                
+
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.box1{               /*rotate()/rotatex()/rotatey()/it is valued in degree*/
+    background-color: blue;
+    height:100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.box2{
+    background-color: rgb(255, 0, 21);
+    height:100px;
+    width: 100px;
+    border: 1px solid black;
+}
+@media(max-width:600px ){
+.box1{
+    orientation: portrait;  
+}
+}

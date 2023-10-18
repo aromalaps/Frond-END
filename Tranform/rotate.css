@@ -1,0 +1,43 @@
+*{                
+
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{               /*rotate()/rotatex()/rotatey()/it is valued in degree*/
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    transform: rotatex(120deg);
+    perspective: 1vh;
+      }
+
+.box2{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    transform: rotatey(120deg);
+
+}
+             /*scale is used to double the current size or decrease the current size */
+.box3{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    transform: scale(2);
+}
+.box4{                       /*skew is used to style a box*/
+    background-color: rgb(176, 176, 184);
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    transform: skew(20deg);
+}
