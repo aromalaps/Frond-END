@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    background-color:blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    resize: both;
+    overflow: hidden;
+}
+
+
+.inner-box{
+    width: 100px;
+    height: 100px;
+    background-color: firebrick;
+    border: 1px solid black;
+    /* flex: 10 50 200px; */
+}
+.inner-box:nth-child(2){
+    flex-grow: 5;
+    flex-basis: 50px;
+}
+.inner-box:nth-child(3){
+    flex-shrink: 4;
+    
+}

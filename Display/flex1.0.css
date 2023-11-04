@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    background-color:blue;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 30px;
+    resize: both;
+    overflow: hidden;
+}
+
+
+.inner-box{
+    width: 100px;
+    height: 100px;
+    background-color: firebrick;
+    border: 1px solid black;
+}
