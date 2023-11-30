@@ -62,7 +62,7 @@ nav > img{
     
 }
 .nav:hover > .links::after {
-    opacity: 1;
+    opacity: 2;
     transform: translate(0,0);
 }
 .links:hover {
@@ -165,4 +165,26 @@ nav > img{
         background-size: cover;
         background-position: center;
         margin-right: 10px;
+}
+/* hower */
+.select-card:hover{
+    position: relative;
+    aspect-ratio: 4/5;
+    transform: scale(1.5);
+    background-image: url("./popup.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 160px;
+    height: 100%;
+}
+.select-card::after {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom,transparent 30%, black 40%);
 }

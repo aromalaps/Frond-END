@@ -1,23 +1,36 @@
-body{
-    width:  100%;
+body {
+    width: 100%;
     height: 100%;
     margin: 0;
 }
-.parentbox{
+
+.parentbox {
+    display: flex;
     background-color: blue;
     width: 700px;
     height: 700px;
+    gap: 10px;
 }
+
 /* .childbox{
     background-color: red;
     width: 100px;
     height: 100px;
 } */
-.box{
+.box {
     width: 50px;
     height: 50px;
     border-radius: 10px black;
 }
-.box:last-child{
+
+.box {
+    background-color: aqua;
+}
+
+.box:last-child {
     background-color: red;
+}
+
+.box:nth-child(2) {
+    background-color: green;
 }
